@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="EventSceneBuilder.EventSceneBuilderController">
+    <stylesheets>
+        <URL value="@eventscenebuilder.css" />
+    </stylesheets>
+   <children>
+      <TextField fx:id="height" layoutX="225.0" layoutY="187.0" />
+      <Label layoutX="204.0" layoutY="136.0" text="Nhập chiều cao của bạn">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="274.0" layoutY="284.0" mnemonicParsing="false" onAction="#Submit" text="Nhập" />
+   </children>
+</AnchorPane>

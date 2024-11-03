@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="css_format.SampleController">
+    <stylesheets>
+        <URL value="@sample.css" />
+    </stylesheets>
+   <children>
+      <Button layoutX="254.0" layoutY="215.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="254.0" layoutY="295.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="254.0" layoutY="135.0" mnemonicParsing="false" styleClass="button1" text="Button" />
+      <Label layoutX="179.0" layoutY="25.0" text="Example" />
+   </children>
+</AnchorPane>

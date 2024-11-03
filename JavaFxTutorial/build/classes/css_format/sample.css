@@ -1,0 +1,15 @@
+.button {
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.root {
+    -fx-background-color: coral;
+}
+
+.label {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 60px;
+}
